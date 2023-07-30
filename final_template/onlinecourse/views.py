@@ -167,19 +167,19 @@ def show_exam_result(request, course_id, submission_id):
     context['choices'] = submission_choices
     print("The choices: \n", submission_choices)
 
-    all_exam_questions = Question.objects.filter(courses=course_id)
+    all_exam_questions = Question.objects.filter(course=course_id)
     context['questions'] = all_exam_questions
     print("All questions: \n", all_exam_questions)
 
     all_exam_choices = [question.choice_set for question in all_exam_questions]
     print("All choices: \n", all_exam_choices)
 
-    submission_score = 0
-    max_score = 0
+    submission_score = 1
+    max_score = 1
     for question in all_exam_questions:
-        max_score += question.marks
-        if question.answered_correctly(submission_choices):
-            submission_score += question.marks
+        max_score += question.grade
+        if question.is_get_score(submission_choices):
+            submission_score += question.grade
         
     context['grade'] = round(submission_score / max_score * 100)
     print("Exam grade: ", submission_score)
