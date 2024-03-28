@@ -1,30 +1,5 @@
-Given that databases are restricted to local environments in this course, kindly input your own database particulars, establish users and tokens manually or via APIs as instructed in the previous modules on Coursera, and utilize the relevant API where token authorization is necessary.
+Welcome to the Little Lemon Restaurant API project, where I've applied the principles and techniques learned throughout this course on backend development. Leveraging the robust Django REST Framework, I've crafted an API tailored specifically for managing table bookings at the Little Lemon restaurant.
 
-Please ensure to modify any details specific to your system, such as the port or IP, if different from those mentioned below.
-(You'll be prompted for authorization in certain instances, as indicated in the response.)
- 
+Through a series of exercises, guided instructions, and reference materials provided within the course, I've embarked on a journey to demonstrate my proficiency in web development. The result is an API capable of handling various HTTP requests, including GET, POST, PUT, and DELETE, seamlessly interfacing with Django models to maintain and update data within a MySQL database.
 
-Following are the API URL
-
-http://127.0.0.1:8000/restaurant/menu/       
-http://127.0.0.1:8000/restaurant/menu/2/     (change the id with your newly created ID)
-http://127.0.0.1:8000/restaurant/api-token-auth/ (POST METHOD)
-http://127.0.0.1:8000/restaurant/booking/ 
-
-
-
-Djoser:
-http://127.0.0.1:8000/auth/users/   (users can also be registered through post method)
-http://127.0.0.1:8000/auth/users/me/
-http://127.0.0.1:8000/auth/users/confirm/
-http://127.0.0.1:8000/auth/users/resend_activation/
-http://127.0.0.1:8000/auth/users/set_password/
-http://127.0.0.1:8000/auth/users/reset_password/
-http://127.0.0.1:8000/auth/users/reset_password_confirm/
-http://127.0.0.1:8000/auth/users/set_username/
-http://127.0.0.1:8000/auth/users/reset_username/
-http://127.0.0.1:8000/auth/users/reset_username_confirm/
-
-Djoser TOKEN:
-http://127.0.0.1:8000/auth/token/login/
-
+Join me as I showcase the culmination of my efforts in building a practical and efficient solution for the hospitality industry. Let's dive into the functionalities and intricacies of the Little Lemon Restaurant API.
