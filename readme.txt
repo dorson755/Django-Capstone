@@ -1,10 +1,7 @@
-NOTE:
-Since databases are limited to local envoriment in this course, please enter your own database details, create users and tokens manually or through apis as decribed in the coursera's previous modules and then use the respective API where token authorization is required.
+Given that databases are restricted to local environments in this course, kindly input your own database particulars, establish users and tokens manually or via APIs as instructed in the previous modules on Coursera, and utilize the relevant API where token authorization is necessary.
 
-
-PLEASE DON'T FORGOT TO CHANGE THE DETAILS WHICH ARE SPECIFIC TO YOUR SYSTEM SUCH AS PORT OR IP IF YOU ARE USING OTHER THAN WHAT ARE MENTIONED BELOW
-
-(authorization is required in some of them. You will know through response where it will be required)
+Please ensure to modify any details specific to your system, such as the port or IP, if different from those mentioned below.
+(You'll be prompted for authorization in certain instances, as indicated in the response.)
  
 
 Following are the API URL
